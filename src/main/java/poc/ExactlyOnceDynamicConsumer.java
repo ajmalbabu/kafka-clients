@@ -74,7 +74,7 @@ public class ExactlyOnceDynamicConsumer {
         props.put("session.timeout.ms", "6001");
 
         // Control maximum data on each poll, make sure this value is bigger than the maximum single record size
-        props.put("max.partition.fetch.bytes", "40");
+        props.put("max.partition.fetch.bytes", "140");
 
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
