@@ -76,7 +76,7 @@ public class AtMostOnceConsumer {
         props.put("auto.commit.interval.ms", "101");
 
         // This is how to control number of records being read in each poll
-        props.put("max.partition.fetch.bytes", "35");
+        props.put("max.partition.fetch.bytes", "135");
 
         // Set this if you want to always read from beginning.
         //        props.put("auto.offset.reset", "earliest");
