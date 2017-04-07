@@ -59,7 +59,7 @@ public class AtLeastOnceConsumer {
         props.put("auto.commit.interval.ms", "999999999999");
 
         // This is how to control number of records being read in each poll
-        props.put("max.partition.fetch.bytes", "35");
+        props.put("max.partition.fetch.bytes", "135");
 
         props.put("heartbeat.interval.ms", "3000");
         props.put("session.timeout.ms", "6001");
